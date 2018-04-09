@@ -1,0 +1,31 @@
+// Styles for navbar
+.navbar,
+.navbar-end {
+  background-color: $blue;
+
+  a {
+    color: $white-color;
+
+    &:hover {
+      background-color: transparent;
+      color: darken($white-color, 30%);
+    }
+  }
+}
+
+.navbar-item {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  @include vendor-prefixes("font-smoothing", auto);
+
+  img {
+    max-height: 54px;
+  }
+}
+
+.navbar-menu {
+  @media(max-width: $desktop) {
+    padding: 0;
+  }
+}

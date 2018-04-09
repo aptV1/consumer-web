@@ -1,0 +1,42 @@
+/* Font - Face */
+@font-face {
+  font-family: 'ZillaSlab';
+  font-style: normal;
+  font-weight: 600;
+  src: asset-url('Zilla_Slab/ZillaSlab-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  src: asset-url('Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  src: asset-url('Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  src: asset-url('Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+/* Font - Family */
+$font-open-sans: 'OpenSans', sans-serif;
+$font-zilla-slab: 'ZillaSlab', serif;
+
+/*  $font-open-sans usage */
+body {
+  font-family: $font-open-sans;
+}
+
+/* $font-zilla-slab usage  */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-zilla-slab;
+}

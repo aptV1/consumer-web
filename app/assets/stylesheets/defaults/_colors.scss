@@ -1,0 +1,22 @@
+/* Define the colors */
+$blue: #0093C6;
+$light-blue: #54BAD8;
+$dark-blue: #192C47;
+$yellow: #F7DC1B;
+$darkgrey: #858585;
+$lightgrey: #e8edf3;
+
+$white-color: #fff;
+$black: #000;
+
+/* Usage of the colors */
+
+// GENERAL
+h1, h2, h3, h4, h5, h6,
+p {
+  color: $dark-blue;
+}
+
+body {
+  background-color: $white-color;
+}

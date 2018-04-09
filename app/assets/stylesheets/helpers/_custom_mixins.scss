@@ -1,0 +1,104 @@
+@mixin font-smoothing-antialiased  {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-smoothing: grayscale;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+@mixin children-red {
+  * {
+    color: $red;
+    text-decoration: underline;
+  }
+}
+
+@mixin vendor-prefixes($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-osx-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@mixin hero-responsive-height {
+  @media(min-width: 1824px) {
+    height: 600px;
+  };
+
+  @media(min-width: 1408px) and (max-width: 1823px){
+    height: 500px;
+  };
+
+  @media(min-width: 1024px) and (max-width: 1407px){
+    height: 450px;
+  };
+
+  @media(min-width: 769px) and (max-width: 1023px){
+    height: 350px;
+  };
+
+  @media(min-width: 617px) and (max-width: 768px) {
+    height: 300px;
+  };
+
+  @media(max-width: 616px){
+    height: 250px;
+  };
+}
+
+// Flexbox properties
+@mixin display-flex {
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+}
+
+@mixin flex-direction($value: row) {
+  -webkit-flex-direction: $value;
+	-moz-flex-direction: $value;
+	-ms-flex-direction: $value;
+	flex-direction: $value;
+}
+
+@mixin justify-content($value:center) {
+  -webkit-justify-content: $value;
+	-moz-justify-content: $value;
+	-ms-justify-content: $value;
+	justify-content: $value;
+}
+
+@mixin align-items($value:center) {
+  -webkit-align-items: $value;
+	-moz-align-items: $value;
+	-ms-align-items: $value;
+	align-items: $value;
+}
+
+@mixin align-content($value: center) {
+  -webkit-align-content: $value;
+	-moz-align-content: $value;
+	-ms-align-content: $value;
+	align-content: $value;
+}
+
+@mixin flex-1 {
+  -webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+@mixin is-vcentered {
+  align-items: center;
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+
+   justify-content: center;
+   -webkit-justify-content: center;
+       -ms-justify-content: center;
+}

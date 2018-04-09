@@ -1,0 +1,21 @@
+/* Define the colors */
+$red: #b56969;
+$magenta: #22264b;
+$yellow: #b56969;
+$darkgrey: #858585;
+$lightgrey: #e8edf3;
+
+$white-color: #fff;
+$black: #000;
+
+/* Usage of the colors */
+
+// GENERAL
+h1, h2, h3, h4, h5, h6,
+p {
+  color: $magenta;
+}
+
+body {
+  background-color: $white-color;
+}

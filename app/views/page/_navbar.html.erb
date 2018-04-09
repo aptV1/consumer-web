@@ -1,0 +1,17 @@
+<header>
+  <div>
+    <nav class="navbar navbar-menu navbar-item">
+      <div>
+        <%# LOGO %>
+        <a href="<%= root_path %>" title="LandSplott">
+          <img src="/images/logo.png" alt="Sample Logo" width="25px" />
+        </a>
+      </div>
+
+      <div class="navbar-end navbar-item navbar-menu">
+          <%= link_to "Home", root_path, title: 'Homepage' %>
+      </div>
+    </nav>
+  </div>
+  <%= yield :hero_content %>
+</header>

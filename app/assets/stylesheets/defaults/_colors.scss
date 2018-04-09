@@ -1,7 +1,8 @@
 /* Define the colors */
-$red: #b56969;
-$magenta: #22264b;
-$yellow: #b56969;
+$blue: #0093C6;
+$light-blue: #54BAD8;
+$dark-blue: #192C47;
+$yellow: #F7DC1B;
 $darkgrey: #858585;
 $lightgrey: #e8edf3;
 
@@ -13,7 +14,7 @@ $black: #000;
 // GENERAL
 h1, h2, h3, h4, h5, h6,
 p {
-  color: $magenta;
+  color: $dark-blue;
 }
 
 body {

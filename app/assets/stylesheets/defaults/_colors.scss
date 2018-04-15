@@ -6,6 +6,12 @@ $yellow: #F7DC1B;
 $darkgrey: #858585;
 $lightgrey: #e8edf3;
 
+$dark_gray: lighten($black, 20%);
+
+$gray: lighten($black, 40%);
+
+$light_gray: lighten($black, 60%);
+
 $white-color: #fff;
 $black: #000;
 

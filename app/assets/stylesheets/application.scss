@@ -2,10 +2,12 @@
 @import "font-awesome";
 @import "defaults/colors";
 @import "helpers/custom_mixins";
+@import 'helpers/card_mixins.scss';
 @import "defaults/fonts";
 @import "defaults/typography";
 @import "components/navigation";
 @import "components/section";
 @import "components/home-header";
 @import "components/hero";
+@import "components/recomended";
 @import "pages/page_home";
